@@ -1,0 +1,32 @@
+{
+  "name": "content-square",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node index.js --mode=cli",
+    "txt": "node index.js --file=\"./test.txt\"",
+    "test": "jest --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eelfonik/content-square.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eelfonik/content-square/issues"
+  },
+  "homepage": "https://github.com/eelfonik/content-square#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.1.0",
+    "chalk": "^2.4.2",
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "event-stream": "3.3.4"
+  }
+}
