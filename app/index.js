@@ -38,6 +38,7 @@ const lineHandler = ({ lineCount, data }) => (line, cb = _noop) => {
   if (pos) {
     const result = `${pos.join(" ")}\n`
     Logger.notif(`The results for mower NO.${pairKey / 2} has been saved! It's ${result}`);
+    cb(null, result);
     return;
   }
   cb();
